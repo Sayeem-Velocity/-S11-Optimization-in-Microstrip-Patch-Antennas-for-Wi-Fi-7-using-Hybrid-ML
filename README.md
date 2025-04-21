@@ -1,40 +1,39 @@
 🛠️ Project Overview
-In this project, I designed a microstrip patch antenna intended for Wi-Fi 7 frequency bands and analyzed its performance through key metrics like the S11 parameter, gain, bandwidth, and radiation pattern.
+In this project, I designed a microstrip patch antenna targeting Wi-Fi 7 frequency bands and evaluated its performance using key parameters such as S11, gain, bandwidth, and radiation pattern.
 
-After simulation, I collected results from CST Studio Suite and leveraged Hybrid Machine Learning algorithms to optimize the antenna parameters—focusing on minimizing the S11 parameter, which is crucial for efficient signal reflection and matching.
+After simulating various antenna designs in CST Studio Suite, I exported the results to Excel, built a custom dataset, and applied hybrid machine learning algorithms to predict and optimize antenna performance—specifically focusing on minimizing the S11 parameter, crucial for impedance matching and signal efficiency.
 
 🚀 Optimization Pipeline
 🎯 Antenna Simulation
-Designed and simulated in CST Studio for Wi-Fi 7 frequency range.
+Designed and simulated a series of microstrip patch antennas in CST Studio Suite across the Wi-Fi 7 frequency range.
 
 📊 Data Collection
-Extracted performance metrics like S11 from various design variations.
+Exported simulation results (including S11 and other key parameters) to an Excel file and created a custom dataset for ML training.
 
 💡 Machine Learning
-Applied hybrid learning techniques to analyze and optimize antenna performance.
+Applied hybrid machine learning techniques to predict and optimize antenna performance using regression models.
 
-📈 Optimization on Kaggle
-Leveraged Kaggle’s interactive environment to preprocess data, train models, and visualize improvements.
+📈 Evaluation Metrics
+Achieved strong performance with the following metrics:
+
+MAE (Mean Absolute Error)
+MSE (Mean Squared Error)
+RMSE (Root Mean Squared Error)
+MAPE (Mean Absolute Percentage Error)
 
 📂 Datasets
-📁 CST Simulation Data (A demo dataset)
-The dataset containing antenna simulation results is available on Kaggle:
-🔗 (https://www.kaggle.com/datasets/shreyasinha/dataset-containing-antenna-parameters)
+📁 Custom CST Simulation Data
+The dataset, including the exported Excel file containing antenna parameters and performance results, is available on Kaggle:
+🔗 [Wi-Fi 7 Antenna Simulation Dataset](https://www.kaggle.com/datasets/shahriar26s/wifi-7-dataset)
 
 ⚙️ Tools & Technologies
-CST Studio Suite – Antenna design and electromagnetic simulation
+CST Studio Suite – Antenna design & electromagnetic simulation
+Python (Pandas, Scikit-learn) – Data preprocessing, model training & evaluation
+Kaggle – Dataset hosting & model development
+Matplotlib / Seaborn – Data visualization
+GitHub – Version control & project documentation
 
-Python (Pandas, Scikit-learn) – Data analysis & ML modeling
-
-Kaggle – Dataset storage and model training
-
-Matplotlib/Seaborn – Visualization
-
-GitHub – Version control & documentation
-
-📌 Goals
-Design a compact and efficient microstrip patch antenna for Wi-Fi 7.
-
-Analyze and minimize the S11 parameter for optimal impedance matching.
-
-Use machine learning to predict and enhance antenna performance based on design inputs.
+📌 Project Goals
+✅ Design a compact and efficient microstrip patch antenna tailored for Wi-Fi 7 applications
+✅ Minimize the S11 parameter for optimal impedance matching and reduced signal reflection
+✅ Use machine learning to predict and enhance antenna performance from simulation-derived data
