@@ -2,52 +2,53 @@
 
 ## 🔍 Project Overview
 
-This project focuses on designing and optimizing a **microstrip patch antenna** for **Wi-Fi 7 frequency bands** using electromagnetic simulation and hybrid machine learning techniques. The goal is to minimize the **S11 parameter**, which is essential for effective impedance matching and signal efficiency.
+This project presents the design and optimization of a **microstrip patch antenna** for **Wi-Fi 7 frequency bands**, combining electromagnetic simulations with machine learning. The primary objective is to **minimize the S11 parameter**, ensuring effective impedance matching and enhanced signal efficiency.
 
-## 🚀 Pipeline Summary
+## 🚀 Optimization Pipeline
 
 ### 🎯 Antenna Simulation
 
-Designed and simulated various microstrip patch antennas in **CST Studio Suite**, targeting Wi-Fi 7 frequency ranges.
+Designed and simulated multiple antenna configurations in **CST Studio Suite**, covering the Wi-Fi 7 frequency spectrum.
 
 ### 📊 Data Collection
 
-Exported simulation results (including S11, gain, bandwidth, and radiation pattern) to Excel and curated a **custom dataset** for machine learning.
+Exported key simulation parameters (S11, gain, bandwidth, radiation pattern) to Excel and created a **custom dataset** for ML training.
 
 ### 🤖 Machine Learning
 
-Applied regression-based ML models to **predict and optimize antenna performance**, focusing on minimizing the S11 value.
+Used regression-based ML models to **predict and optimize antenna performance**, with a focus on reducing S11.
 
 ### 📈 Evaluation Metrics
 
 Model performance was evaluated using:
 
-* **MAE** (Mean Absolute Error)
-* **MSE** (Mean Squared Error)
-* **RMSE** (Root Mean Squared Error)
-* **MAPE** (Mean Absolute Percentage Error)
+* **MAE** – Mean Absolute Error
+* **MSE** – Mean Squared Error
+* **RMSE** – Root Mean Squared Error
+* **MAPE** – Mean Absolute Percentage Error
 
 ---
 
 ## 📂 Dataset
 
 **📁 Wi-Fi 7 Antenna Simulation Dataset**
-The dataset consists of CST simulation results exported to Excel and is hosted on [Kaggle](#) *(link placeholder for your dataset)*.
+Access the full dataset on Kaggle:
+🔗 [Wi-Fi 7 Dataset on Kaggle](https://www.kaggle.com/datasets/shahriar26s/wifi-7-dataset/data)
 
 ---
 
 ## ⚙️ Tools & Technologies
 
-* **CST Studio Suite** – Antenna design & simulation
-* **Python (Pandas, Scikit-learn)** – Data processing & ML modeling
-* **Matplotlib / Seaborn** – Visualization
-* **Kaggle** – Dataset hosting & notebooks
+* **CST Studio Suite** – Antenna design & EM simulation
+* **Python (Pandas, Scikit-learn)** – Data processing & modeling
+* **Matplotlib / Seaborn** – Data visualization
+* **Kaggle** – Dataset hosting & modeling notebooks
 * **GitHub** – Version control & documentation
 
 ---
 
 ## ✅ Project Goals
 
-* Design a compact and efficient antenna for **Wi-Fi 7** applications
-* Optimize **S11** for better impedance matching and reduced reflection
-* Leverage **machine learning** to predict antenna performance from simulation data
+* Design a compact, high-performance antenna for **Wi-Fi 7**
+* Minimize **S11** for optimal efficiency
+* Use machine learning to predict and enhance antenna characteristics from simulation data
