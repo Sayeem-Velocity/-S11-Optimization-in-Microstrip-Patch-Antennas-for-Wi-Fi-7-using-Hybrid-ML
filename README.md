@@ -1,7 +1,3 @@
-Here’s a professional and user-friendly version of your project description, ideal for your GitHub README:
-
----
-
 # 🛠️ Wi-Fi 7 Microstrip Patch Antenna Optimization with Machine Learning
 
 ## 🔍 Project Overview
